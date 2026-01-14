@@ -79,6 +79,13 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Descripción" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xaz-OW-L8J">
+                                        <rect key="frame" x="32" y="447" width="329" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
@@ -96,6 +103,7 @@
                         <outlet property="calculatebutton" destination="3fS-7P-ZNH" id="Be1-pS-WlM"/>
                         <outlet property="heightStepper" destination="ork-mM-7kg" id="sfX-5u-YhS"/>
                         <outlet property="heightlabel" destination="hGC-CV-lfJ" id="tqz-yd-VCR"/>
+                        <outlet property="resultDescriptionlabel" destination="Xaz-OW-L8J" id="WDK-Rk-Cqy"/>
                         <outlet property="resultlabel" destination="I5D-z2-hHP" id="Ofx-tZ-Dek"/>
                         <outlet property="weightSlider" destination="6Gu-tG-qFf" id="xIz-ob-lwa"/>
                         <outlet property="weightlabel" destination="nol-uS-3zX" id="mOp-Dc-BnZ"/>
